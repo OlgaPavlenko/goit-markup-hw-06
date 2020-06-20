@@ -421,12 +421,14 @@
             <div class="subscription">
                 <form class="form">
                     <label for="mail" class="join-in">подписаться на рассылку</label>
-                    <input type="email" name="mail" id="mail" placeholder="E-mail" />
-                    <button type="submit" class="button order">
-                        Подписаться<svg class="icon-send" width="24" height="24">
-                            <use href="./images/svg/symbol-defs.svg#icon_send"></use>
-                        </svg>
-                    </button>
+                    <div class="join-inline">
+                        <input type="email" name="mail" id="mail" placeholder="E-mail" />
+                        <button type="submit" class="button order">
+                            Подписаться<svg class="icon-send" width="24" height="24">
+                                <use href="./images/svg/symbol-defs.svg#icon_send"></use>
+                            </svg>
+                        </button>
+                    </div>
                 </form>
             </div>
         </div>
@@ -440,7 +442,7 @@
 
             <div class="form-field">
                 <input type="name" class="form-input" name="name" id="name" placeholder=" " />
-                <label class="form-label" for="name">Имя</label>
+                <label class="form-label" sfor="name">Имя</label>
                 <svg class="form-icon" height="18" width="18">
                     <use href="./images/svg/name.svg"></use>
                 </svg>
@@ -467,11 +469,13 @@
                 <label class="form-label" for="comment">Комментарий</label>
             </div>
 
-            <div class="checkbox link">
-                <input type="checkbox" name="policy" id="policy" />
-                <label for="policy">Согласен с рассылкой и принимаю
-                    <a class="checkbox-link" href="./index.html">Условия договора</a></label>
-            </div>
+            <label class="checkbox link" for="policy">
+                <input class="checkbox-form" type="checkbox" name="policy" id="policy" />
+                <span class="checkbox-icon"></span>
+                Согласен с рассылкой и принимаю
+                <a class="checkbox-link" href="./index.html">
+                    Условия договора</a>
+            </label>
 
             <div class="button-submit">
                 <button type="submit" class="button order">Отправить</button>
