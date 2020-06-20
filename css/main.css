@@ -252,10 +252,6 @@ h3{
     border-radius: 4px;
 }
 
-.icon-elem{
-
-}
-
 .wedo{
     padding-bottom: 94px;
 }
@@ -678,8 +674,6 @@ letter-spacing: 0.01em;
     width: 100%;
 }
 
-
-
 .form-input:focus ~ .form-icon{
     background-color: var(--accent-color);
 }
@@ -700,13 +694,8 @@ letter-spacing: 0.01em;
     position: absolute;
     top: 50%;
     left: 19px;
-
     transform: translateY(-50%);
-
     display: inline-block;
-    width: 18px;
-    height: 18px;
-    
     fill: var(--basic-color);
     background-color: tomato;
 }
@@ -724,10 +713,12 @@ letter-spacing: 0.01em;
     box-shadow: none;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+  
   }
 
   .backdrop .form-input:focus {
     border: 1px solid var(--accent-color);
+    outline: none;
   }
 
   .form-field input::placeholder {
