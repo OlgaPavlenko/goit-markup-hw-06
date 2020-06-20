@@ -576,6 +576,18 @@ b{
   }
 
   .join-inline input{
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    background-color: #2f303a;
+    padding-left: 12px;
+    color: var(--secondary-color);
+  }
+
+  .join-inline input{
       margin-right: 12px;
   }
 
