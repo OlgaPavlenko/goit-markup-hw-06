@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" href="./css/portfolio.css">
 </head>
 
@@ -229,9 +229,9 @@
                             </div>
                         </a>
                     </li>
-                    <li class="link-elems">
+                    <li class="link-elems" width="44" height="44">
                         <a class="social-network" href="">
-                            <div class="network">
+                            <div class="network" width="44" height="44">
                                 <svg class="icon-network" width="20" height="20">
                                     <use href="./images/svg/symbol-defs.svg#twitter"></use>
                                 </svg>
@@ -239,7 +239,7 @@
                         </a>
                     </li>
                     <li class="link-elems">
-                        <a class="social-network" href="">
+                        <a class="social-network" href="" width="44" height="44">
                             <div class="network">
                                 <svg class="icon-network" width="20" height="20">
                                     <use href="./images/svg/symbol-defs.svg#facebook"></use>
@@ -249,7 +249,7 @@
                     </li>
                     <li class="link-elems">
                         <a class="social-network" href="">
-                            <div class="network">
+                            <div class="network" width="44" height="44">
                                 <svg class="icon-network" width="20" height="20">
                                     <use href="./images/svg/symbol-defs.svg#linkedin"></use>
                                 </svg>
@@ -258,23 +258,20 @@
                     </li>
                 </ul>
             </div>
+
             <div class="subscription">
-                <ul>
-                    <li><a href="" aria-label="instagram"></a></li>
-                    <li><a href="" aria-label="twitter"></a></li>
-                    <li><a href="" aria-label="facebook"></a></li>
-                    <li><a href="" aria-label="linkedIn"></a></li>
-                </ul>
+                <form class="form">
+                    <label for="mail" class="join-in">подписаться на рассылку</label>
+                    <div class="join-inline">
+                        <input type="email" name="mail" id="mail" placeholder="E-mail" />
+                        <button type="submit" class="button order">
+                            Подписаться<svg class="icon-send" width="24" height="24">
+                                <use href="./images/svg/symbol-defs.svg#icon_send"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
             </div>
-            <b class="footer-join">Подписаться на рассылку</b>
-            <form>
-                <div>
-                    <label for="mail"></label>
-                    <input type="email" placeholder="E-mail" value="mail" name="mail">
-                </div>
-                <button type="submit" class="button form">Подписаться</button>
-            </form>
-        </div>
         </div>
         <p class="copyrite container">2020 | Developed by GoIT Students </p>
     </footer>
